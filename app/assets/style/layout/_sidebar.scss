@@ -1,0 +1,14 @@
+/*.sidebar-nav{
+    width:$sidebar-width;
+}*/
+
+.leftmenu{
+    position: fixed;
+    min-width: $sidebar-width; //?
+    min-height: 100vh;
+}
+
+.leftmenu a.active{
+    border-left: 4px solid $primary;
+    color: $primary;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <!--link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"-->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <!--div class='classes-outer d-flex' -->
+    <header class="leftmenu sidebar-nav d-flex flex-column flex-shrink-0 bg-light vh-100 py-4">
+      <a href="/" class="d-flex align-items-center link-dark text-decoration-none ms-4 mb-3">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg" alt="ANSWER"-->
+      </a>
+      <ul class="nav flex-column mb-auto">
+        <li class="nav-item mb-3">
+          <a class="nav-link align-middle" aria-current="page" href="#">
+            <span class="material-icons align-top ">insert_chart</span>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item mb-3">
+          <a class="nav-link" href="#">
+            <span class="material-icons align-top">question_answer</span>
+            Question</a>
+        </li>
+        <li class="nav-item mb-3">
+          <a class="nav-link" href="#">
+            <span class="material-icons align-top ">assignment</span>
+            Assignment</a>
+        </li>
+        <li class="nav-item  mb-3">
+          <a class="nav-link" href="#">
+            <span class="material-icons align-top">video_library</span>
+            Course</a>
+        </li>
+        <li class="nav-item mb-3">
+          <a class="nav-link active " href="#">
+            <span class="material-icons align-top">people</span>
+            Admin</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">
+            <span class="material-icons align-top ">settings</span>
+            Settings</a>
+        </li>
+      </ul>
+      <div class ='user-info'>
+        <img src='./assets/images/andychen.jpeg'></img>
+        <div>
+          <p class='u-name'>Andy Chen</p>
+          <a class='u-email' href='emailto:andy0401@mail.com'>andy0401@mail.com</a>
+        </div>
+      </div>
+    </header>
+    <!--div class="main "-->
+      <%- contents %>
+    <!--/div-->
+  <!--div-->
+  <!--script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script-->
+  <!--script src="../assets/dist/js/bootstrap.bundle.min.js"></script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
